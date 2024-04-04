@@ -1,5 +1,11 @@
 # @wagmi/connectors
 
+## 0.0.0-20240404002220
+
+### Minor Changes
+
+- [`8e93f3fa`](https://github.com/wevm/wagmi/commit/8e93f3fabcee421766a582a8ffb47ba299d65a14) Thanks [@ignaciosantise](https://github.com/ignaciosantise)! - Refactored isNewChainsStale, Updated @walletconnect/ethereum-provider
+
 ## 4.1.22
 
 ### Patch Changes
