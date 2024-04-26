@@ -27,3 +27,23 @@ test('default', () => {
     }
   `)
 })
+
+test('bigint', () => {
+  expect(
+    readContractQueryOptions(config, {
+      args: [0n],
+    }),
+  ).toMatchInlineSnapshot(`
+    {
+      "queryFn": [Function],
+      "queryKey": [
+        "readContract",
+        {
+          "args": [
+            0n,
+          ],
+        },
+      ],
+    }
+  `)
+})
